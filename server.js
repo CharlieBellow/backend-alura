@@ -6,6 +6,7 @@ import routes from "./src/routes/postRoutes.js";
 
 
 const app = express();
+app.use(express.static("uploads"))
 
 routes(app)
 // Habilita o middleware para analisar corpos de requisições em formato JSON.
