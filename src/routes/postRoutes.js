@@ -4,7 +4,7 @@ import cors from "cors"
 import { listPosts, postNewPost, uploadImage, updateNewPost } from "../controllers/postsController.js";
 
 const corsOptions = {
-  origin: "https://localhost:8000",
+  origin: "*  ",
   optionsSuccessStatus: 200
 }
 // windows:
